@@ -1,0 +1,31 @@
+{
+  "name": "qa_wolf_take_home",
+  "version": "1.0.0",
+  "description": "Multiple ways to analyze if the YCombinator published news are in chronological order",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --trace on --project=chromium --headed --workers=1 -g"
+  },
+  "keywords": [
+    "QA Wolf",
+    "YCombinator",
+    "Hacker News",
+    "API testing",
+    "web scraping",
+    "Playwright",
+    "automation",
+    "QA",
+    "testing"
+  ],
+  "author": "David Numa",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^20.8.9"
+  }
+}
